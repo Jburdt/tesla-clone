@@ -1,1 +1,33 @@
-// 30 min in
+import { useNavigate } from "react-router";
+import './Header.css';
+
+const headerElements = [
+  { label: "TESLA", route: "", style: { marginRight: 'auto' }},
+  { label: "Model S", route: "model_s" },
+  { label: "Model X", route: "model_x" },
+  { label: "CyberTruck", route: "cybertruck" },
+  { label: "Menu", route: null, style: { marginLeft: 'auto' }},
+];
+
+export default function Header() {
+  const navigate = useNavigate();
+  return (
+    <nav>
+      <ul className="headerList">
+        {headerElements.map(({ label, route, style= {} }) => (
+          <li
+            style={style}
+            key={label}
+            onClick={() => {
+              if (!(label === "Menu")) {
+                navigate(`/${route}`);
+              }
+            }}
+          >
+            {label}
+          </li>
+        ))}
+      </ul>
+    </nav>
+  );
+}

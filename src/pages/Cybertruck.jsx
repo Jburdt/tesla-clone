@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+import Header from "../components/header/Header";
 
 const Cybertruck = () => {
   return (
-    <h1>CyberTruck</h1>
-  )
-}
+    <>
+      <Header />
+      <h1>CyberTruck</h1>
+    </>
+  );
+};
 
-export default Cybertruck
+export default Cybertruck;

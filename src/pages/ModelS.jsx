@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+import Header from "../components/header/Header";
 
 const ModelS = () => {
   return (
-    <h1>ModelS</h1>
-  )
-}
+    <>
+      <Header />
+      <h1>Model S</h1>
+    </>
+  );
+};
 
-export default ModelS
+export default ModelS;

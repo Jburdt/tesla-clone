@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+import Header from "../components/header/Header";
 
 const Modelx = () => {
   return (
-    <h1>Modelx</h1>
-  )
-}
+    <>
+      <Header />
+      <h1>Model X</h1>
+    </>
+  );
+};
 
-export default Modelx
+export default Modelx;
