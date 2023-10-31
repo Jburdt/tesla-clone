@@ -1,6 +1,7 @@
 import React from "react";
 import { navElements } from "../header/Header";
 import { useNavigate } from "react-router";
+import "./Sidebar.css";
 
 const Sidebar = ({ setShowSidebar }) => {
   const navigate = useNavigate();

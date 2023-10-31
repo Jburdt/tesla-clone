@@ -8,7 +8,6 @@ nav .headerList {
 nav .headerList li {
   margin: 5px 10px;
   cursor: pointer;
-  padding: 10px;
   transition: all 0.3s;
   border-radius: 10%;
 }
@@ -18,5 +17,5 @@ nav .headerList li:first-of-type {
 }
 
 nav .headerList li:hover {
-  background-color: rgb(242, 242, 242);
+  background-color: var(--hover-background);
 }
