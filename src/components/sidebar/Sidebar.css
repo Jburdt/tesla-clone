@@ -1,5 +1,5 @@
 nav.sidebar {
-  positon: fixed;
+  position: fixed;
   right: 0;
   top: 0;
   height: 100vh;
@@ -10,7 +10,7 @@ nav.sidebar {
 }
 
 nav.sidebar button {
-  positon: absolute;
+  position: absolute;
   top: 0;
   right: 0;
   cursor: pointer;
@@ -27,11 +27,6 @@ nav.sidebar ul {
 }
 
 nav.sidebar ul li {
-  padding: 10px;
-  cursor: pointer;
-}
-
-nav.sidebar ul li:hover {
   padding: 10px;
   cursor: pointer;
 }
