@@ -3,16 +3,17 @@ import teslaVid from '../../assets/tesla-vid.mp4'
 
 const HomeVideo = () => {
   return (
-    <div className="video-background">
-      <video autoPlay muted loop>
+    <div>
+      <video className="video-background" autoPlay muted loop>
         <source src={teslaVid} />
       </video>
       <div className="overlay">
-        <div className="top-section">
-          <h1>Top Section</h1>
+        <div>
+          <h1>Experience Tesla</h1>
+          <h5>Schedule a demo drive today</h5>
         </div>
-        <div className="bottom-section">
-          <h1>Bottom Section</h1>
+        <div>
+          <button>Demo Drive</button>
         </div>
       </div>
     </div>
