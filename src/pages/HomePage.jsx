@@ -1,9 +1,9 @@
-import React from "react";
+import HomeVideo from "../components/homeVideo/HomeVideo";
 
 const HomePage = () => {
   return (
     <>
-      <h1>Home Page</h1>
+      <HomeVideo />
     </>
   );
 };
