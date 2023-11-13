@@ -5,7 +5,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import ModelS from "./pages/ModelS";
 import Modelx from "./pages/Modelx";
-import Cybertruck from "./pages/Cybertruck";
+import Roadster from "./pages/Roadster";
 import App from "./App";
 
 const router = createBrowserRouter([
@@ -34,10 +34,10 @@ const router = createBrowserRouter([
     ),
   },
   {
-    path: "/cybertruck",
+    path: "/roadster",
     element: (
       <App>
-        <Cybertruck />
+        <Roadster />
       </App>
     ),
   },

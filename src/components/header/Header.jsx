@@ -5,7 +5,7 @@ export const navElements = [
   { label: "TESLA", route: "", style: { marginRight: "auto" } },
   { label: "Model S", route: "model_s" },
   { label: "Model X", route: "model_x" },
-  { label: "CyberTruck", route: "cybertruck" },
+  { label: "Roadster", route: "roadster" },
   { label: "Menu", route: null, style: { marginLeft: "auto" } },
 ];
 
