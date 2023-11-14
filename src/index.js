@@ -7,6 +7,7 @@ import ModelS from "./pages/ModelS";
 import Modelx from "./pages/Modelx";
 import Roadster from "./pages/Roadster";
 import App from "./App";
+import Shop from "./pages/Shop";
 
 const router = createBrowserRouter([
   {
@@ -38,6 +39,14 @@ const router = createBrowserRouter([
     element: (
       <App>
         <Roadster />
+      </App>
+    ),
+  },
+  {
+    path: "/shop",
+    element: (
+      <App>
+        <Shop />
       </App>
     ),
   },
