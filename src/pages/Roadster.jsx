@@ -2,10 +2,9 @@ import ImageBackgroundSection from "../components/imageBackgroundSection/ImageBa
 import roadster from "../assets/roadster.jpg";
 
 const featureItems = [
-  { title: "2.3s 0-60", desc: "Very Fast" },
-  { title: "2.3s 0-60", desc: "Very Fast" },
-  { title: "2.3s 0-60", desc: "Very Fast" },
-  { title: "2.3s 0-60", desc: "Very Fast" },
+  { title: "1.9 s", desc: "0-60 mph" },
+  { title: "+250 mph", desc: "Top Speed" },
+  { title: "620 mi", desc: "Range" },
 ];
 
 const Cybertruck = () => {
