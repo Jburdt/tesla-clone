@@ -1,5 +1,7 @@
 import ImageBackgroundSection from "../components/imageBackgroundSection/ImageBackgroundSection";
 import modelx from "../assets/model-x.jpg";
+import modelxx from "../assets/modelxx.jpg";
+import ImageBackgroundNoText from "../components/ImageBackgroundNoText/ImageBackgroundNoText";
 
 const featureItems = [
   { title: "3.8 s", desc: "0-60 mph" },
@@ -17,6 +19,9 @@ const Modelx = () => {
           backgroundImage={modelx}
           featureItems={featureItems}
         />
+      </section>
+      <section className="section">
+        <ImageBackgroundNoText backgroundImage={modelxx} />
       </section>
     </div>
   );

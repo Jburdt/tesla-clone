@@ -1,5 +1,7 @@
 import ImageBackgroundSection from "../components/imageBackgroundSection/ImageBackgroundSection";
 import roadster from "../assets/roadster.jpg";
+import roadstr from "../assets/roadstr.jpg";
+import ImageBackgroundNoText from "../components/ImageBackgroundNoText/ImageBackgroundNoText";
 
 const featureItems = [
   { title: "1.9 s", desc: "0-60 mph" },
@@ -17,6 +19,9 @@ const Cybertruck = () => {
           backgroundImage={roadster}
           featureItems={featureItems}
         />
+      </section>
+      <section className="section">
+        <ImageBackgroundNoText backgroundImage={roadstr} />
       </section>
     </div>
   );
