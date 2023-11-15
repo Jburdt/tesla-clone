@@ -1,5 +1,5 @@
 import React from "react";
-import Product from "../components/product/product";
+import Product from "../components/Product/product";
 import roadster from '../assets/roadster.jpg'
 
 const Shop = () => {
