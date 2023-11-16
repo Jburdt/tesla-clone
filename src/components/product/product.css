@@ -7,6 +7,13 @@
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 4px;
+  flex-basis: calc(100% / 4);
+  box-shadow: 0 0 15px rgba(248, 248, 248, 0.4);
+}
+
+.product:hover {
+  transform: scale(1.03);
+  transiton: all 0.3s;
 }
 
 .product-image {
@@ -14,6 +21,7 @@
   height: 200px;
   object-fit: cover;
   margin-bottom: 10px;
+  border-radius: 4px;
 }
 
 .product-title {
@@ -35,6 +43,7 @@
   cursor: pointer;
   color: white;
   padding: 6px 12px;
+  border-radius: 4px;
 }
 
 .product-button:hover {
