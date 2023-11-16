@@ -38,6 +38,6 @@
 }
 
 .product-button:hover {
- transform: scale(1.3);
- transiton: all 0.3s
+  transform: scale(1.3);
+  transiton: all 0.3s;
 }

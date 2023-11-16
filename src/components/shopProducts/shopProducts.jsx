@@ -3,6 +3,7 @@ import Product from "../product/product";
 import modelX from "../../assets/model-x.jpg";
 import modelS from "../../assets/modelS.jpg";
 import roadster from "../../assets/roadster.jpg";
+import "./shopProducts.css";
 
 const products = [
   {
