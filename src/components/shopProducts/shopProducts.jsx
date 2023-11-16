@@ -1,52 +1,55 @@
-import Product from "./Product/Product";
-import "./Product.css";
+import React from "react";
+import Product from "../product/product";
+import modelX from "../../assets/model-x.jpg";
+import modelS from "../../assets/modelS.jpg";
+import roadster from "../../assets/roadster.jpg";
 
 const products = [
   {
     id: 1,
-    image: "",
+    image: roadster,
     title: "Cybertruck",
     description: "Description of Product 1",
     price: 19.99,
   },
   {
     id: 2,
-    image: "",
+    image: modelS,
     title: "Model S",
     description: "Description of Product 2",
     price: 29.99,
   },
   {
     id: 3,
-    image: "",
+    image: modelX,
     title: "Model X",
     description: "Description of Product 3",
     price: 39.99,
   },
   {
     id: 4,
-    image: "",
-    title: "Charger",
+    image: roadster,
+    title: "Roadster",
     description: "Description of Product 4",
     price: 49.99,
   },
   {
     id: 5,
-    image: "",
-    title: "Cybertruck",
+    image: modelX,
+    title: "Model X",
     description: "Description of Product 5",
     price: 59.99,
   },
   {
     id: 6,
-    image: "",
+    image: modelS,
     title: "Model S",
     description: "Description of Product 6",
     price: 69.99,
   },
 ];
 
-const Products = () => {
+const shopProducts = () => {
   return (
     <div className="products">
       {products.map((product) => (
@@ -62,4 +65,4 @@ const Products = () => {
   );
 };
 
-export default Products;
+export default shopProducts;
