@@ -1,4 +1,3 @@
-import React from "react";
 import Product from "../product/product";
 import modelX from "../../assets/model-x.jpg";
 import modelS from "../../assets/modelS.jpg";
