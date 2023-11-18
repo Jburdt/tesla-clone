@@ -29,6 +29,7 @@ export default function Header({ setShowSidebar }) {
                   key={route}
                   style={style}
                 >
+                  <span className="cart-items-count"></span>
                   {label}
                 </li>
               );
