@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import "./Header.css";
+import { useSelector } from "react-redux";
 
 export const navElements = [
   { label: "TESLA", route: "", style: { marginRight: "auto" } },
@@ -14,6 +15,7 @@ export const navElements = [
 
 export default function Header({ setShowSidebar }) {
   const navigate = useNavigate();
+  const cartItems = useSelector((store) => store.cartItems);
 
   return (
     <>
@@ -29,7 +31,7 @@ export default function Header({ setShowSidebar }) {
                   key={route}
                   style={style}
                 >
-                  <span className="cart-items-count"></span>
+                  <span className="cart-items-count">{cartItems.length}</span>
                   {label}
                 </li>
               );
