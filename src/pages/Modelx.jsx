@@ -9,7 +9,7 @@ import ImageGrid from "../components/ImageGrid/ImageGrid";
 const featureItems = [
   { title: "3.8 s", desc: "0-60 mph" },
   { title: "149 mph", desc: "Top Speed" },
-  { title: "348 mi", desc: "Range (EPA est." },
+  { title: "348 mi", desc: "Range (EPA est.)" },
 ];
 
 const Modelx = () => {

@@ -4,7 +4,7 @@ import "./Header.css";
 import { useSelector } from "react-redux";
 
 export const navElements = [
-  { label: "TESLA", route: "", style: { marginRight: "auto" } },
+  { label: "NOT-TESLA", route: "", style: { marginRight: "auto" } },
   { label: "Model S", route: "model_s" },
   { label: "Model X", route: "model_x" },
   { label: "Roadster", route: "roadster" },

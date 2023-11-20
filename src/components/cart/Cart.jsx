@@ -13,7 +13,7 @@ const Cart = () => {
   };
 
   const handleBuyEverything = () => {
-    toast.success("All itams purchased and on the way!");
+    toast.success("All iteam's purchased and on the way!");
     dispatch(buyAllProducts());
   };
 

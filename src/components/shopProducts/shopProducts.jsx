@@ -27,18 +27,18 @@ const products = [
     price: 39.99,
   },
   {
-    id: 4,
-    image: roadster,
-    title: "Roadster",
-    description: "Description of Product 4",
-    price: 49.99,
-  },
-  {
     id: 5,
     image: modelX,
     title: "Model X",
     description: "Description of Product 5",
     price: 59.99,
+  },
+  {
+    id: 4,
+    image: roadster,
+    title: "Roadster",
+    description: "Description of Product 4",
+    price: 49.99,
   },
   {
     id: 6,
