@@ -12,8 +12,12 @@ import { Provider } from "react-redux";
 import { createStore } from "redux";
 import cartReducer from "./components/reducers/cartReducer";
 import Cart from "./components/cart/Cart";
+import { Toaster } from "react-hot-toast";
 
-const store = createStore(cartReducer,window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
+const store = createStore(
+  cartReducer,
+  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+);
 
 const router = createBrowserRouter([
   {
@@ -69,6 +73,7 @@ const router = createBrowserRouter([
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
+    <Toaster />
     <Provider store={store}>
       <RouterProvider router={router} />
     </Provider>
