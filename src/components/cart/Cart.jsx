@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-import React from 'react'
-
-const Cart = () => {
-  return (
-    <h1>Cart</h1>
-  )
-}
-
-export default Cart
-=======
 import { useSelector } from "react-redux";
 
 const Cart = () => {
@@ -31,4 +20,3 @@ const Cart = () => {
 };
 
 export default Cart;
->>>>>>> cart

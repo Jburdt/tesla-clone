@@ -1,13 +1,15 @@
 import "./product.css";
 import { useDispatch } from "react-redux";
 import { addToCart } from "../actions/cartActions";
+import { v4 as uuidv4 } from "uuid";
 
 const Product = (product) => {
-  const { image, title, description, price } = product
+  const { image, title, description, price } = product;
   const dispatch = useDispatch();
 
   const handleAddToCart = () => {
-    dispatch(addToCart(product));
+    const productWithId = { ...product, id: uuidv4() };
+    dispatch(addToCart(productWithId));
   };
 
   return (
